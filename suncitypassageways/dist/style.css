@@ -77,7 +77,7 @@ body {
 	border: 3px solid darkgreen;
 	border-radius: 50%;
 	color: darkgreen;
-	cursor: pointer;
+	
 }
 
 .middle-row .direction-button:first-of-type {
@@ -103,7 +103,7 @@ body {
 	border: 3px solid darkgreen;
 	padding: 3px 10px;
 	margin-right: 20px;
-	cursor: pointer;
+	
 }
 
 .generate-maze:hover,
@@ -121,7 +121,7 @@ body {
 .checkbox {
 	border: 3px solid darkgreen;
 	padding: 3px;
-	cursor: pointer;
+	
 	width: 45px;
 
 	display: flex;
