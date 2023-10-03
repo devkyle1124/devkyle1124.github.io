@@ -10,7 +10,9 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
+	overflow:hidden;
+	zoom: 0.9;
+	transform: scale(0.9);
 	background: #a1ffce;
 	background: -webkit-linear-gradient(to right, #faffd1, #a1ffce);
 	background: linear-gradient(to right, #faffd1, #a1ffce);
