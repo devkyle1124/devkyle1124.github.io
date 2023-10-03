@@ -85,7 +85,7 @@ label.lb, input.rd {
   height: 100vmax;
   bottom: 0;
   left: 0;
-  cursor: pointer;
+
 }
 #board #tiles .lb:hover {
   background: rgba(0, 0, 0, 0);
@@ -2622,5 +2622,5 @@ html, body {
   font-size: 18px;
   border: 0;
   border-radius: 5px;
-  cursor: pointer;
+
 }
