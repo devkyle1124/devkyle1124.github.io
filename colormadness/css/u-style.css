@@ -1,11 +1,12 @@
 
    body {
-       margin: 0;
-       height: 100%;
-       overflow: hidden;
-       display: flex;
-       flex-direction: column;
-       justify-content: flex-end;
+ margin: 0;
+    height: 100vh; /* 100% of viewport height */
+    overflow: hidden; /* Hide the scrollbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
 
    }
 
