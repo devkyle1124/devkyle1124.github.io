@@ -4,7 +4,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("dist/Splash_02.png");
+  background-image: url("./colormadness/dist/Splash_02.png");
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
