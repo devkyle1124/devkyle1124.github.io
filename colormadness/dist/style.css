@@ -34,3 +34,10 @@ footer a:hover {
   align-items: center;
   justify-content: center;
 }
+
+
+
+ #my-iframe {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
