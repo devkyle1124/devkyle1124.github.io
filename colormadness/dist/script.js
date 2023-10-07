@@ -31,6 +31,16 @@ class Color {
     return this.print(this.colorVariant);
   }}
 
+  document.addEventListener("DOMContentLoaded", function () {
+    const startButton = document.getElementById("start-button");
+    const startButtonContainer = document.getElementById("start-button-container");
+  
+    startButton.addEventListener("click", function () {
+      // Hide the popup when the "Start" button is clicked
+      startButtonContainer.style.display = "none";
+    });
+  });
+
 
 class Game {
   constructor() {
@@ -131,6 +141,7 @@ You Are great! Well done!
       this._newGame();
     });
   }
+
 
   _gameOver() {
     const background = new Konva.Rect({
