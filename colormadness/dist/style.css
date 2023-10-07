@@ -4,7 +4,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('./colormadness/dist/bg.png');
+  background-image: url('./colormadness/img/bg.png');
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
