@@ -1,14 +1,14 @@
-        html {
-         overflow: hidden;   
-        }
-        body {
-            margin: 0;
-            height: 100%;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-        }
+html {
+    overflow: hidden;   
+   }
+   body {
+       margin: 0;
+       height: 100%;
+       overflow: hidden;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+   }
 
    #loading-indicator {
        position: fixed;
@@ -24,9 +24,9 @@
        z-index: 9999;
    }
    #loading-spinner {
-       width: 100px;
-       height: 100px;
+       width: 80px;
+       height: 80px;
    }
    #loading-text {
-       margin-top: 20px;
+       margin-top: 10px;
    }
