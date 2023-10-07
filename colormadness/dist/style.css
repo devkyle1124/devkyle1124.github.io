@@ -10,7 +10,8 @@ body {
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
-
+ zoom: 0.9;
+ transform: scale(0.9);
 }
 
 footer {
