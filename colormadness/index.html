@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me88 Color Madness</title>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="./css/u-style.css">
+
+</head>
+<body>
+<script src="./js/fb.js"></script>
+
+<div id="iframe-container">
+    <iframe id="my-iframe" style="width: 100%; height: 100vh; border: none;"></iframe>
+</div>
+
+<div id="loading-indicator">
+    <lottie-player
+        src="https://lottie.host/81edda22-ba77-4e70-a375-13da3d8bacd3/hmtwoFazwe.json"
+        background="transparent"
+        speed="1"
+        style="width: 80px; height: 80px;"
+        loop
+        autoplay
+    ></lottie-player>
+    <div id="loading-text">LOADING...</div>
+</div>
+
+<script src ="./js/script.js"></script>
+</body>
+</html>
