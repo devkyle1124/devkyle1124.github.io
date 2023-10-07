@@ -1,12 +1,14 @@
-
-   body {
-       margin: 0;
-       height: 100vh;
-       overflow: hidden;
-       display: flex;
-       flex-direction: column;
-       justify-content: flex-end;
-   }
+        html {
+         overflow: hidden;   
+        }
+        body {
+            margin: 0;
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
 
    #loading-indicator {
        position: fixed;
