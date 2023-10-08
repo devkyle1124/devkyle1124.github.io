@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Me88 Color Madness </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div id="app">
+    <canvas></canvas>
+  </div>
+
+  <!-- Start button container -->
+  <div id="start-button-container" class="start-button-container">
+    <!-- The Start button -->
+    <button id="start-button" class="start-button">Click to Play</button>
+  </div>
+
+  <script src='https://cdn.rawgit.com/konvajs/konva/1.3.0/konva.js'></script>
+  <script src="./script.js"></script>
+  <script>
+    // JavaScript code for the Start button
+    const startButton = document.getElementById("start-button");
+
+    // Add a click event listener to the Start button
+    startButton.addEventListener("click", () => {
+      // Hide the Start button when the game starts
+      startButton.style.display = "none";
+
+      // Trigger the game
+      new Game();
+    });
+  </script>
+</html>
+
+
