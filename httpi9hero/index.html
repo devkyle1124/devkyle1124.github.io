@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta name = "viewport"  content="width=device-width , initial-scale=1.0"/>
+	<meta name = "viewport" content="width=device-width , initial-scale=1.0"/>
 	<style>
 		body {
 			margin: 0;
-                        overflow: hidden;
+            overflow: hidden;
 		}
 		canvas {
 			border : 1px solid #aeacd3;
 			width: 100%;
-                        height: 100vh;
+            height: 100vh;
 		}
 	</style>	
 	</head>
@@ -633,8 +633,7 @@
 						this.blink++;
 						break;
 					case 3: //menu
-						font_generator("CREATED BY://",this.x + this.width*.05 , this.y + this.height*.06 , .02 * sw,.04 * sh,"tomato");
-						font_generator("SHUBHAM7997",this.x + this.width*.32 , this.y + this.height*.06 , .02 * sw,.04 * sh,"lightgreen");
+						
 						font_generator("HTTP",this.x + this.width*.1 , this.y + this.height*.2 , .15 * sw,.15 * sh,"cyan");
 						font_generator("HERO",this.x + this.width*.1 , this.y + this.height*.4 , .15 * sw,.15 * sh,"cyan");
 						hero.idle(this.x + this.width * .75 , this.y + this.height * .4 ,  .15 * sw,.15 * sh);
@@ -805,17 +804,17 @@
 			if(hero.hp <=0){
 				hero.crashed = true;
 				sounds(2);
-				dialog.out_stat = "Http i9 Hero FAINTED!";
+				dialog.out_stat = "HTTP HERO FAINTED!";
 			}
 			if(hero.y > sh){
 				hero.crashed = true;
 				sounds(2);
-				dialog.out_stat = "Http i9 Hero FALLS DOWN!";
+				dialog.out_stat = "HTTP HERO FALLS DOWN!";
 			}
 			else if(hero.x > sw){
 				hero.crashed= true;
 				sounds(2);	
-				dialog.out_stat = "Http i9 Hero IS LOST IN WEB!";
+				dialog.out_stat = "HTTP HERO IS LOST IN WEB!";
 			}
 			if(server.gc && server.x + server.width + 10 <= sw){
 				game_spd = 0;
@@ -876,13 +875,13 @@
 					if(ground[i].x <= hero.x + hero.width && ground[i].x+ground[i].width > hero.x + hero.width && hero.y <= bottom && hero.y + hero.height - 5 >= ground[i].y){
 						hero.crashed = true;
 						sounds(2);
-						dialog.out_stat = "Http i9 Hero CRASHED!";
+						dialog.out_stat = "HTTP HERO CRASHED!";
 						return;
 					}
 					else if(ground[i].x + ground[i].width >= hero.x &&  ground[i].x < hero.x && hero.y <= bottom && hero.y + hero.height - 5 >= ground[i].y){
 						hero.crashed = true;
 						sounds(2);
-						dialog.out_stat = "Http i9 Hero CRASHED!";
+						dialog.out_stat = "HTTP HERO CRASHED!";
 						return;
 					}
 				}
