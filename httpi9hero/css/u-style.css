@@ -6,8 +6,12 @@
             padding: 0;
             overflow: hidden;
       zoom: 0.9;
-      display: flex;
    }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
    #loading-indicator {
        position: fixed;
