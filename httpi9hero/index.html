@@ -7,6 +7,7 @@
 			border : 1px solid #d3d3d3;
 			width: 100%;
            		height: 100vh;
+			overflow: hidden;
 		}
 	</style>	
 	</head>
@@ -801,17 +802,17 @@
 			if(hero.hp <=0){
 				hero.crashed = true;
 				sounds(2);
-				dialog.out_stat = "HTTP HERO FAINTED!";
+				dialog.out_stat = "Http i9 Hero FAINTED!";
 			}
 			if(hero.y > sh){
 				hero.crashed = true;
 				sounds(2);
-				dialog.out_stat = "HTTP HERO FALLS DOWN!";
+				dialog.out_stat = "Http i9 Hero FALLS DOWN!";
 			}
 			else if(hero.x > sw){
 				hero.crashed= true;
 				sounds(2);	
-				dialog.out_stat = "HTTP HERO IS LOST IN WEB!";
+				dialog.out_stat = "Http i9 Hero IS LOST IN WEB!";
 			}
 			if(server.gc && server.x + server.width + 10 <= sw){
 				game_spd = 0;
@@ -872,13 +873,13 @@
 					if(ground[i].x <= hero.x + hero.width && ground[i].x+ground[i].width > hero.x + hero.width && hero.y <= bottom && hero.y + hero.height - 5 >= ground[i].y){
 						hero.crashed = true;
 						sounds(2);
-						dialog.out_stat = "HTTP HERO CRASHED!";
+						dialog.out_stat = "Http i9 Hero CRASHED!";
 						return;
 					}
 					else if(ground[i].x + ground[i].width >= hero.x &&  ground[i].x < hero.x && hero.y <= bottom && hero.y + hero.height - 5 >= ground[i].y){
 						hero.crashed = true;
 						sounds(2);
-						dialog.out_stat = "HTTP HERO CRASHED!";
+						dialog.out_stat = "Http i9 Hero CRASHED!";
 						return;
 					}
 				}
